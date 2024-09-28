@@ -1,0 +1,8 @@
+print('1. O que é Python?')
+print("O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes. O software Python pode ser baixado gratuitamente, integra-se bem a todos os tipos de sistema e agiliza o desenvolvimento.")
+print('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+print('2. Qual programa(IDE) executa o arquivo .py?')
+print("Pycharm. Se é uma IDE dedicada ao Python que você quer, Pycharm. VSCode também é uma IDE, basta instalar a extensão de python")
+print('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+print('3. Qual linguagem de programaão Python substituiu?')
+print("Python não substituiu diretamente uma única linguagem de programação, mas se tornou uma alternativa popular em diversas áreas por causa de sua simplicidade, legibilidade e vasta gama de bibliotecas. Ocasionando a substituição de Fortran, C++ e Java")
