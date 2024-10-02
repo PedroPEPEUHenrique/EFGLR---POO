@@ -1,0 +1,31 @@
+#1 
+a = int(input('Digite o primeiro numero '))
+b = int(input('digite o segundo numero '))
+
+soma = a + b
+print(soma)
+
+#2
+
+primeironome = str(input('Insira o primeiro nome '))
+segundonome = str(input('insira o segundo nome '))
+
+print(primeironome + segundonome)
+
+#3
+
+n1 = float(input('nota 1 '))
+n2 = float(input('nota 2'))
+n3 = float(input('nota 3'))
+
+media = (n1 + n2 + n3)/3
+
+print(media)
+
+#4
+
+largura = float(input('numero da largura '))
+altura = float(input('numero da altura '))
+
+area = largura * altura
+print(area)
