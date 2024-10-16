@@ -1,0 +1,242 @@
+#Questão 01
+a1 = int(input())
+b1 = int(input())
+
+soma1 = a1 + b1
+print("A soma é:",soma1)
+
+#Questã 02
+
+a2= int(input())
+b2= int(input())
+
+sub2 = a2 - b2
+print("A subtração é:",sub2)
+
+#Questão 03
+
+a3 = int(input())
+b3 = int(input())
+
+multi3 = a3 * b3
+print("A multiplicação é:",multi3)
+
+#Questão 04
+
+a4 = int(input())
+b4 = int(input())
+
+div4 = a4/b4
+print("Divisão é:",div4)
+
+#Questão 05
+
+a5 = int(input())
+b5 = int(input())
+
+resto5 = a5%b5
+print("O resto da divisão é:",resto5)
+
+#Questão 06
+
+num = int(input())
+pot = int(input("insira a potencia: "))
+
+potnum = num ** pot
+print("O numero com potencia é",potnum)
+
+#Questão 07
+
+mednum1 = int(input())
+mednum2 = int(input())
+mednum3 = int(input())
+
+media = (mednum1 + mednum2 + mednum3)/3
+print("A media é: ",media)
+
+#Questão 08
+
+graus = int(input())
+fahrenheit = graus * 1.8 + 32
+
+print("A temperatura graus celsius",graus,"para fahrenheit é",fahrenheit)
+
+#Questão 09
+
+real = float(input())
+dolar = real * 5.46
+
+print("O valor em dolares é",dolar)
+
+#Questão 10
+
+baseret = int(input())
+alturaret = int(input())
+
+arearet = baseret * alturaret
+print("A area do retangulo é:",arearet)
+
+#Questão 11
+
+lado1 = int(input())
+lado2 = int(input())
+lado3 = int(input())
+lado4 = int(input())
+
+perimetro = lado1+lado2+lado3+lado4
+print("O perimetro do quadrado é:",perimetro)
+
+#Questão 12
+
+basetri = int(input())
+alturatri = int(input())
+
+areatri = (basetri * alturatri)/2
+print("Area do triangulo é:",areatri)
+
+#Questão 13
+
+raio = int(input())
+pi = 3.14
+
+areacirc = pi * raio ** 2
+print("A area do circulo é:", areacirc)
+
+#Questão 14
+
+metro = int(input())
+centimetros = metro * 100
+
+print("centimentro para o metro informado é:",centimetros)
+
+#Questão 15
+
+horas = int(input())
+salarioporhora = float(input())
+
+salariototal = horas * salarioporhora
+print("O salario total pelas horas trabalhadas é R$",salariototal)
+
+#Questão 16
+
+precoprod = float(input())
+desconto = float(input())
+
+precodesc = precoprod - desconto
+print("O preço com desconto ficou:",precodesc)
+
+#Questão 17
+
+espaco = int(input())
+tempo = int(input())
+
+vm = espaco/tempo
+print("A velocidade média é:",vm)
+
+#Questão 18
+
+idade = int(input())
+
+idadedias = idade * 365
+
+print("A idade informada, em dias é",idadedias)
+
+#Questão 19
+
+dia = 24
+diasegundos = 24 * 3600
+
+print("A quantidade de segundos em um dia é:",diasegundos)
+
+#Questão 20
+
+peso = int(input())
+altura = int(input())
+
+imc = peso/altura
+print("O imc é:",imc)
+
+#Questão 21
+
+difnum1 = int(input())
+difnum2 = int(input())
+
+diferençatotal = difnum1 - difnum2
+print("A diferença entre dois numeros são:"<diferençatotal)
+
+#Questão 22
+
+divint1 = int(input())
+divint2 = int(input())
+
+divinteira = divint1/divint2
+print("O resultado da divisao inteira é:",int(divinteira))
+
+#Questão 23 
+
+numero = int(input())
+valorabsoluto = abs(numero)
+print("O valor absoluto do numero informado é:",valorabsoluto)
+
+#Questão 24
+
+kmh = int(input())
+ms = kmh * 0.277778
+
+print("m/s são",ms)
+
+#Questão 25
+
+a = float(input('Entre com o valor de a: '))
+b = float(input('Entre com o valor de b: '))
+c = float(input('Entre com o valor de c: '))
+
+delta = (b ** 2) - 4 * a * c
+
+print("\n**************************\n")
+
+x1 = (-b + delta ** (1 / 2)) / (2 * a)
+x2 = (-b - delta ** (1 / 2)) / (2 * a)
+
+print("o x1 é",x1)
+print("o x2 é",x2)
+
+#Questão 26
+
+prod1 = float(input())
+prod2 = float(input())
+prod3 = float(input())
+
+compra = prod1+prod2+prod3
+print("A compra total deu:",compra)
+
+#Questão 27
+
+def converter_dias_para_semanas_e_dias(dias):
+    semanas = dias // 7
+    dias_restantes = dias % 7
+    return semanas, dias_restantes
+
+dias_input = int(input("Digite o número de dias: "))
+semanas, dias_restantes = converter_dias_para_semanas_e_dias(dias_input)
+
+print(f"{dias_input} dias = {semanas} semanas e {dias_restantes} dias")
+
+#Questão 28
+
+valor = float(input())
+
+if(valor > 100.0):
+    descprog = valor - (valor * 0.10)
+else:
+    descprog = valor - (valor * 0.5)
+
+print("O desconto progressivo é:",descprog)
+
+#Questão 29
+
+numlim1 = int(input())
+numlim2 = int(input())
+
+divcasalim = numlim1/numlim2
+print(f'O resultado é{divcasalim:.3}')
