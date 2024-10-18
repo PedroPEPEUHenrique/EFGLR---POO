@@ -1,0 +1,225 @@
+#1
+
+n1 = int(input('Digite um numero: '))
+
+if(n1 > 0):
+    print('Positivo')
+
+if(n1 == 0):
+    print('Zero')
+
+elif(n1 <= -1):
+    print('Negativo')
+
+#2
+
+idade = int(input())
+
+if (idade >= 18):
+    print('Maior idade')
+
+else:
+    print('Menor idade')
+
+
+#3
+
+n3 = int(input('Insira um numero: '))
+
+if(n1%2 == 0):
+    print('Par')
+
+elif(n1%2 == 1):
+    print('Impar')
+
+#4
+
+nm1 = int(input('Insira um numero: '))
+nm2 = int(input('Insira um numero: '))
+
+if(nm1 > nm2):
+    print('Este é o maior número:',nm1)
+
+if(nm2 > nm1):
+    print('Este é o maior: ',nm2)
+
+#5
+
+valor = float(input('Informe o valor'))
+
+if(valor > 100.00):
+    valordesc= valor - (valor * 0.1)
+    print(f'o valor é:{valordesc:.2f}')
+
+else: 
+    print(f'O valor é:{valor:.2f}')
+
+#6
+
+vmult = int(input("Insira o numero"))
+
+if(vmult%5==0):
+    print('O numéro é muliplo de 5')
+
+else:
+    print('Ele não é multiplo')
+
+#7
+
+med1 = float(input('Insira a nota: '))
+med2 = float(input('Insira a nota: '))
+med3 = float(input('Insira a nota: '))    
+
+med = (med1+med2+med3)/3
+
+if(med >= 7.00):
+    print('Aprovado')
+
+else:
+    print('Reprovado')
+
+#8
+
+senha = str(input('Digite a senha: '))
+
+if(senha == 'python123_EFG'):
+    print('Acesso permitido')
+
+else:
+    print('Senha incorreta')
+
+#9
+idadeeg = int(input('Informe a idade: '))
+
+if(idadeeg < 5 or idadeeg > 60):
+    print('Entrada gratuita')
+
+else:
+    print('Entrada normal')
+
+#10
+
+nota = int(input('Digite a nota: '))
+
+if(nota > 10 and nota < 0):
+    print('Invalido')
+
+else:
+    print('Valido')
+
+#11
+
+idadecat = int(input('Digite a idade: '))
+
+if(idadecat < 12):
+    print('Criança')
+
+elif(idadecat >= 13 and idadecat <= 17):
+    print('Adolescente')
+
+elif(idadecat > 18):
+    print('Adulto')
+
+#12
+
+a=int(input("Primeiro numero: "))
+b=int(input("Segundo numero: "))
+c=int(input("Terceiro numero: "))
+
+if(a > b and a > c):
+    print(a)
+    print("A é o maior número")
+
+if(b > a and b > c):
+    print(b)
+    print("B é o maior número")
+
+if(c > a and c > b):
+    print(c)
+    print("C é o maior número")
+
+#13
+
+primeiro = int(input('Digite o primeiro numero: '))
+segundo = int(input('Digite o segundo numero: '))
+
+if(segundo == 0):
+    print('Divisão impossivel')
+
+else:
+    div = primeiro/segundo
+    print(div)
+
+#14
+numero = int(input('Digite um numero: '))
+
+if(numero > 10 and numero < 50):
+    print('Dentro do intervalo')
+
+else:
+    print('Fora do intervalo')
+
+#15
+
+media = float(input('Informe a media: '))
+
+if(media >= 7):
+    print('Aprovado')
+
+if(media < 5):
+    print('Reprovado')
+
+elif(media >= 5 and media < 7):
+    print('Recuperação')
+
+#16
+
+peso = int(input())
+altura = int(input())
+
+imc = peso/altura
+
+if(imc < 18.5):
+    print('Abaixo do peso')
+if(imc >= 18.5 and imc < 25):
+    print('Peso normal')
+elif(imc > 25):
+    print('Acima do peso')
+
+#17
+
+lado1 = float(input('Informe o lado: '))
+lado2 = float(input('Informe o lado: '))
+lado3 = float(input('Informe o lado: '))
+
+if (lado1 == lado2 == lado3):
+    print("Equilátero")
+elif (lado1 == lado2 or lado1 == lado3 or lado2 == lado3):
+    print("Isósceles")
+else:
+    print("Escaleno")
+
+#18
+
+login = str(input("Usuario: "))
+senh4 = str(input('Senha'))
+
+if(login == 'admin' and senh4 == 1234):
+    print('Login bem-sucedido')
+
+else:
+    print('Não permitido')
+
+#19
+
+id = int(input())
+
+if (id >= 18):
+    print('Pode dirigir')
+
+elif(id < 18):
+    print('não pode dirigir')
+    id = 18 - id
+    print(id)
+
+    
