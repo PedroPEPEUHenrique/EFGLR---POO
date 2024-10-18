@@ -1,0 +1,33 @@
+#1
+
+idade = int(input())
+
+if (idade >= 18):
+    print('Maior idade')
+
+else:
+    print('Menor idade')
+
+#2
+
+numb1 = int(input('Insira um numero: '))
+numb2 = int(input('Insira um numero: '))
+
+if(numb1 == numb2):
+    print('Os numeros são iguais')
+
+else:
+    print('Os numeros são diferentes')
+
+#3
+
+n1 = int(input('Insira um numero: '))
+
+if(n1%2 == 0):
+    print('Par')
+
+elif(n1%2 == 1):
+    print('Impar')
+
+if(n1 == 0):
+    print('Zero')
